@@ -30,6 +30,7 @@
 
 </head>
 
+
 <body>
 
     <!-- Navigation -->
@@ -50,7 +51,7 @@
                 <a href="#experience" onclick = $("#menu-close").click(); >Experience</a>
             </li>
             <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
+                <a href="#portfolio" onclick = $("#menu-close").click(); >Certification</a>
             </li>
             <li>
                 <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
@@ -76,7 +77,8 @@
                     <h2><p align="center">About Me</p></h2>
                     <img align="left" class="img-portfolio img-responsive" src="img/dennis.jpg" height="250" width="250"> 
                     <p class="lead" align="justify" style="margin-left:275px;">Welcome to my personal webpage. Let me introduce myself, I am Dennis Owusu. I specialize in infrastructure technologies, such as servers. Also, I do application support for Blackberry, Avaya, Active Directory, and more! I graduated at Humber College with a degree majoring in Legal Studies. I am currently working at the Region of Peel as a specialist Network Administrator.</p>
-                </div>
+                    <p class="lead" align="justify" style="margin-left-275px;">I am a reliable indvidual that is passionate about being a System Administrator in the Infrastrucutre Technology field. I am able to think logically, work under pressure, work individually, and part of a dynamic team on projects. I am cerified in many fields; my specialties are under Network Administration in Active Directory and Exchange Management.</p>
+                </div> 
             </div>
             <!-- /.row -->
         </div>
@@ -107,58 +109,70 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>Certification</h2>
                     <hr class="small">
                     <div class="row">
+                        <!-- Modal 1-->
                         <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
+                          <!-- Trigger the modal with a button -->
+                          <img class="img-portfolio img-responsive" src="http://www.micarmenia.am/Images/partner1.jpg" style="width:90%%;max-height: 130%;margin-top:15px"data-toggle="modal" data-target="#myModal1">
+                          <!-- Modal -->
+                          <div class="modal fade" id="myModal1" role="dialog">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">Microsoft Certifications</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>
+                                    <li align="left">Microsoft® Certified IT Professional ﴾MCITP) Enterprise / Server and Virtualization Administrator</li>
+                                    <li align="left">MCTS: Windows Server 2008 Active Directory, Configuration</li>
+                                    <li align="left">MCTS: Windows Server 2008 Network Infrastructure, Configuration</li>
+                                    <li align="left">MCTS: Windows Server 2008 Applications Infrastructure, Configuration</li>
+                                    <li align="left">MCTS: TS: Windows 7 & Office 2010, Deploying</li>
+                                    <li align="left">MCTS: TS: Administering and Deploying SCCM 2012</li>
+                                    <li align="left">MCTS: TS: windows Server 2008 R2: Server Virtualization</li>
+                                  </p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
                             </div>
+                          </div>
                         </div>
+
+                        <!-- Modal 2-->
                         <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
+                          <!-- Trigger the modal with a button -->
+                          <img class="img-portfolio img-responsive" src="https://www.citrix.com/content/dam/citrix/en_us/images/logos/citrix-logo-black.jpg" style="width:75%%;max-height: 80%" data-toggle="modal" data-target="#myModal2" >
+                          <!-- Modal -->
+                          <div class="modal fade" id="myModal2" role="dialog">
+                            <div class="modal-dialog">
+                            
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">Citrix Certifications</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>
+                                    <li align="left">CCA: Citrix Certified Administrator for XenApp 6</li>
+                                  </p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                              
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
-                            </div>
+                          </div>
                         </div>
                     </div>
-                    <!-- /.row (nested) -->
                 </div>
-                <!-- /.col-lg-10 -->
             </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Map -->
-    <section id="contact" class="services bg-primary">
-       <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Contact Information</h2>
-                    <p align="left"> dennis.owusu@hotmail.com </p>
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
         </div>
     </section>
 
@@ -185,6 +199,7 @@
             </div>
         </div>
     </footer>
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
