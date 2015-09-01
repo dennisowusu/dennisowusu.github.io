@@ -115,7 +115,7 @@
                     <div class="row">
                         <!-- Modal 1-->
                         <div class="col-md-6">
-                          <img class="img-portfolio img-responsive" src="http://www.aspiration.com.my/wp-content/uploads/2015/03/Microsoft-Logo.png" style="width:75%%;max-height:50%" data-toggle="modal" data-target="#myModal1">
+                          <img class="img-portfolio img-responsive" src="http://cdn.pureinfotech.com/wp-content/uploads/2012/08/microsoft_logo_new_small.png?681c7a" style="width:75%%;max-height:120%" data-toggle="modal" data-target="#myModal1">
                           <div class="modal fade" id="myModal1" role="dialog">
                             <div class="modal-dialog">
                               <div class="modal-content">
@@ -171,12 +171,32 @@
         </div>
     </section>
 
+<div class="modal fade" id="resume" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Résumé</h4>
+        </div>
+        <div class="modal-body">
+          <object type="application/pdf" data="resume/Dennis.pdf" width="567" height="700"></object><br><br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+</div>
+
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Dennis Owusu | <a href="#resume" data-toggle="modal">Résumé</font></a> </strong>
+                    <h4><strong>Dennis Owusu</strong>
                     </h4>
                     <p>Brampton<br>Mississauga<br>Toronto</p>
                     <br>
@@ -188,6 +208,9 @@
                             <a href="https://github.com/dennisowusu" target="_blank"><i class="fa fa-github fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#resume">Résumé</button>
                     <hr class="small">
                     <p class="text-muted">Copyright &copy; Dennis Owusu 2015</p>
                 </div>
@@ -195,30 +218,6 @@
         </div>
     </footer>
 
-    <section id="resume" class="portfolio">
-        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="modal-body">
-                            <h2>Résumé</h2>
-                                <!-- password protect the PDF directly -->
-                                <!-- onclick="javascript:window.location.reload()" refreshes the page after closing the modal-->
-                                <object type="application/pdf" data="resume/Andy Resume Aug 12.protected.pdf" width="1000" height="495"></object><br><br>
-                                <button type="button" class="btn btn-default" onclick="javascript:window.location.reload()" data-dismiss="modal">Close</button>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
